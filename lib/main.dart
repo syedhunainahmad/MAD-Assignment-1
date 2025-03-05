@@ -44,15 +44,15 @@ class _MaximumBidState extends State<MaximumBid> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text('Place your bid'),
+        title: Text('Bidding app'), foregroundColor: Colors.blue,
         centerTitle: true,
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text('Your current maximum Bid:',
-                style: TextStyle(fontSize: 30)
+            const Text('Your current maximum Bid',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
             ),
 
             Text(
